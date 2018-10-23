@@ -1,0 +1,49 @@
+
+.home-body {
+    width: 100%;
+
+   > h2 {
+    margin-top: 10%;
+    color: gray;
+    font-size: 2em;
+    letter-spacing: 3px;
+    margin-left: 10%;
+    opacity: .6;
+    }
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    > div {
+        width: 80%;
+        font-weight: 100;
+        font-size: 1.2em;
+        line-height: 35px;
+    }
+}
+
+.embeded-acuity {
+    margin-top: 5%;
+    background-color: 	#FFFAFA;
+
+}
+
+.title {
+    margin-top: 10%;
+    font-size: 2em;
+    color: gray;
+    letter-spacing: 3px;
+    margin-left: 10%;
+    opacity: .6;
+}
+
+.margin-top {
+    margin-top: 15%;
+}
+
+.contact > iframe {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}

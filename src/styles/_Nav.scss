@@ -1,0 +1,49 @@
+.upper {
+    background-color: #4d4d4d;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    > :first-child {
+        display: flex;
+        justify-content: space-around;
+        color: gray;
+        width: 20%;
+        font-size: 1.5em;
+        font-weight: 400;
+        padding-left: 3%;
+        align-items: center;
+        height: 100%;
+    }
+
+    > :nth-child(2) {
+        padding-right: 3%;
+        color: gray;
+    }
+}
+
+.lower {
+    display: flex;
+    align-items: center;
+    height: 14vh;
+    -webkit-box-shadow: 7px 7px 9px -4px rgba(222,219,222,1);
+    -moz-box-shadow: 7px 7px 9px -4px rgba(222,219,222,1);
+    box-shadow: 7px 7px 9px -4px rgba(222,219,222,1);
+}
+
+.logo {
+    margin-left: 7%;
+    margin-right: 4%
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    text-transform: capitalize;
+    color: gray;
+    font-size: 1.5em;
+
+    > :first-child {
+        color: black;
+    }
+}

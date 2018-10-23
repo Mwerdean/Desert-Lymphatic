@@ -1,0 +1,124 @@
+.home-body {
+  width: 100%; }
+  .home-body > h2 {
+    margin-top: 10%;
+    color: gray;
+    font-size: 2em;
+    letter-spacing: 3px;
+    margin-left: 10%;
+    opacity: .6; }
+
+.center {
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+  .center > div {
+    width: 80%;
+    font-weight: 100;
+    font-size: 1.2em;
+    line-height: 35px; }
+
+.embeded-acuity {
+  margin-top: 5%;
+  background-color: #FFFAFA; }
+
+.title {
+  margin-top: 10%;
+  font-size: 2em;
+  color: gray;
+  letter-spacing: 3px;
+  margin-left: 10%;
+  opacity: .6; }
+
+.margin-top {
+  margin-top: 15%; }
+
+.contact > iframe {
+  margin-top: 5%;
+  margin-bottom: 10%; }
+
+.upper {
+  background-color: #4d4d4d;
+  height: 6vh;
+  display: flex;
+  justify-content: space-between; }
+  .upper > :first-child {
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+    width: 20%;
+    font-size: 1.5em;
+    font-weight: 400;
+    padding-left: 3%;
+    align-items: center;
+    height: 100%; }
+  .upper > :nth-child(2) {
+    padding-right: 3%;
+    color: gray; }
+
+.lower {
+  display: flex;
+  align-items: center;
+  height: 14vh;
+  -webkit-box-shadow: 7px 7px 9px -4px #dedbde;
+  -moz-box-shadow: 7px 7px 9px -4px #dedbde;
+  box-shadow: 7px 7px 9px -4px #dedbde; }
+
+.logo {
+  margin-left: 7%;
+  margin-right: 4%; }
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  text-transform: capitalize;
+  color: gray;
+  font-size: 1.5em; }
+  .nav-links > :first-child {
+    color: black; }
+
+.aws-btn {
+  --slider-height-percentage: 39% !important;
+  --slider-transition-duration: 700ms !important;
+  --organic-arrow-thickness: 4px !important;
+  --organic-arrow-border-radius: 0px !important;
+  --organic-arrow-height: 40px !important;
+  --organic-arrow-color: #26456f !important;
+  --control-button-width: 10% !important;
+  --control-button-height: 25% !important;
+  --control-button-background: transparent !important;
+  --control-bullet-color: #2d5182 !important;
+  --control-bullet-active-color: #26456f !important;
+  --loader-bar-color: #851515 !important;
+  --loader-bar-height: 6px !important; }
+
+.Hero > h1 {
+  margin-left: 50px;
+  color: gray;
+  opacity: .8;
+  font-size: 3em;
+  letter-spacing: 3px; }
+
+.footer {
+  background-color: #FFFAFA;
+  height: 18vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.social {
+  display: flex; }
+  .social > div {
+    margin: 15px; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace; }
