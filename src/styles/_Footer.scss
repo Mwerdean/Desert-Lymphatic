@@ -9,8 +9,31 @@
 
 .social {
     display: flex;
-
     > div {
         margin: 15px;
     }
 }
+
+.social-animate {
+    transform: translateY(-50px);
+    @for $i from 1 through 3 {
+        &:nth-child(#{$i}) {
+            animation-name: 'social-anim';
+            animation-duration: 500ms * $i;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards;
+            animation-delay: .5s;
+        }
+    }
+}
+
+@keyframes social-anim {
+    0% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        transform: translateY(0px)
+    }
+}
+

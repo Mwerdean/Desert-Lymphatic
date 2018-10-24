@@ -8,13 +8,13 @@ export default class Social extends Component {
     render() {
         return(
             <div className='social'>
-            <div>
+            <div className='social-animate'>
                 <FontAwesomeIcon icon={['fab', 'twitter']} size="2x"/>
             </div>
-            <div>
+            <div className='social-animate'>
                 <FontAwesomeIcon icon={['fab', 'facebook']} size="2x"/>
             </div>
-            <div>
+            <div className='social-animate'>
                 <FontAwesomeIcon icon={['fab', 'instagram']} size="2x"/>
             </div>
         </div>

@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri');
+
+.Nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #fff;
+    z-index: 100;
+}
+
 .upper {
     background-color: #4d4d4d;
+    transition: all 1s ease-in-out;
     height: 6vh;
     display: flex;
     justify-content: space-between;
@@ -19,31 +30,92 @@
         padding-right: 3%;
         color: gray;
     }
+     > * {
+        transition: all .5s ease-in-out .5s;
+    }
+}
+
+.upper2 {
+    height: 0vh;
+    > * {
+        opacity: 0; 
+        visibility: hidden;
+        transition: all .5s ease-in-out 0s !important;
+    }
 }
 
 .lower {
     display: flex;
     align-items: center;
-    height: 14vh;
-    -webkit-box-shadow: 7px 7px 9px -4px rgba(222,219,222,1);
-    -moz-box-shadow: 7px 7px 9px -4px rgba(222,219,222,1);
-    box-shadow: 7px 7px 9px -4px rgba(222,219,222,1);
+    transition: all 2s ease-in-out;
+    -webkit-box-shadow: 7px 7px 9px -4px rgb(185, 185, 185);
+    -moz-box-shadow: 7px 7px 9px -4px rgb(177, 177, 177);
+    box-shadow: 7px 3px 9px -4px rgb(179, 179, 179);
 }
+
 
 .logo {
+    transition: all 2s ease-in-out;
     margin-left: 7%;
-    margin-right: 4%
+    margin-right: 4%;
+    width: 33%;
+
+    > img {
+        transition: all 2s ease-in-out;
+        margin-top: 10px;
+        height: 120px;
+    }
 }
 
-.nav-links {
+.logo2 {
+    transition: all 2s ease-in-out;
+    width: 10%;
+    
+    > img {
+        height: 100px;
+    }
+}
+
+
+.nav-top {
     display: flex;
-    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 5%;
+    >div {
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+}
+
+.nav-all {
+    display: flex;
+    justify-content: space-around;
     width: 35%;
     text-transform: capitalize;
+    transition: all 2s ease-in-out;
     color: gray;
     font-size: 1.5em;
+        > :first-child {
+            color: rgb(102, 101, 101);
+        }
+}
 
-    > :first-child {
-        color: black;
-    }
+.nav-title {
+    margin-left: -20px;
+    margin-top: 10px;
+    font-size: 2.7em;
+    font-weight: bold;
+    color: rgb(88, 88, 88);
+    letter-spacing: 3px;
+    width: 33%;
+    font-family: "Amiri"; 
+    white-space: nowrap;
+    transition: width 2s ease-in-out 0s, opacity 1s ease-in-out 1s;
+}
+
+.nav-title2 {
+    transition: all 2s ease-in-out 0s, opacity .5s ease-in-out, visibility .5s ease-in-out 2s !important;
+    width: 0%;
+    opacity: 0;
+    visibility: hidden;
 }

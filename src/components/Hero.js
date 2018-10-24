@@ -2,12 +2,12 @@ import React, { Component } from 'react'
 import AwesomeSlider from 'react-awesome-slider'
 import styles from 'react-awesome-slider/src/styles.js'
 import img1 from '../assets/alexander-mils-684487-unsplash.jpg'
-
+import logo from '../assets/logo.jpg'
 
 
 const startupScreen = (
     <div>
-        <img src={img1}alt='' className='startup'/>
+        <img src={logo} alt='' className='startup'/>
     </div>
 )
 
@@ -40,7 +40,7 @@ export default class Hero extends Component {
         )
         return (
       <div className='Hero'>
-        <h1>Desert Lymphatic Massage</h1>
+        {/* <h1>Desert Lymphatic Massage</h1> */}
         <div>
             {slider}
         </div>

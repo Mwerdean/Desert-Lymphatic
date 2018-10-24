@@ -7,8 +7,8 @@ export default class Home extends Component {
   render() {
     return (
       <div className='Home'>
-        <Hero />
-        <body className='home-body'>
+        {/* <Hero /> */}
+        <div className='home-body'>
           <h2>General Benefits of Massage</h2>
           <div className='center'>
             <div>
@@ -19,7 +19,7 @@ export default class Home extends Component {
           </div>
           <Reservation />
           <Footer />
-        </body>
+        </div>
       </div>
     )
   }
