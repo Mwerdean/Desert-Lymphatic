@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import AwesomeSlider from 'react-awesome-slider'
 import styles from 'react-awesome-slider/src/styles.js'
 import img1 from '../assets/alexander-mils-684487-unsplash.jpg'
+import massage from '../assets/massage.jpg'
+import massage2 from '../assets/massage2.jpg'
 import logo from '../assets/logo.jpg'
 
 
@@ -34,8 +36,8 @@ export default class Hero extends Component {
                 selected={this.state.selected}
                 >
                 <div data-src={img1} />
-                <div data-src={img1} />
-                <div data-src={img1} />
+                <div data-src={massage2} />
+                <div data-src={massage} />
             </AwesomeSlider>
         )
         return (
