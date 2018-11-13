@@ -22,7 +22,8 @@ export default class Nav extends Component {
       <div className='Nav'>
         <div className={`upper ${this.state.minimal ? ``:`upper2`}`}>
             <div>
-                <div>Features</div>
+                <div>Featu
+                  res</div>
                 <div>|</div>
                 <div>Layout</div>
                 <div>|</div>
@@ -35,8 +36,7 @@ export default class Nav extends Component {
             <div className={`nav-title ${this.state.minimal ? ``:`nav-title2`}`}>Desert Lymphatic Massage</div>
             <div className={`nav-all ${this.state.minimal ? `nav-top`:``}`}>
                 <div>Home</div>
-                <div>About</div>
-                <div>Reserve</div>
+                <div>Schedule</div>
                 <div>Location</div>
                 <div>Contact</div>
             </div>

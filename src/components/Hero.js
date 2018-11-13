@@ -42,10 +42,10 @@ export default class Hero extends Component {
         )
         return (
       <div className='Hero'>
-        {/* <h1>Desert Lymphatic Massage</h1> */}
-        <div>
+        <article>
+            <div className='Nav-Text'>EXPERIENCE A BRIGHTER HEALTHIER COMPLEXION DURING THE DLM SALE</div>
             {slider}
-        </div>
+        </article>
       </div>
     )
   }

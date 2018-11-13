@@ -7,6 +7,8 @@
     width: 100%;
 
    > h2 {
+    width: fit-content;
+    visibility: hidden;
     margin-top: 10%;
     color: gray;
     font-size: 2em;
@@ -31,7 +33,7 @@
 .embeded-acuity {
     margin-top: 5%;
     background-color: 	#FFFAFA;
-
+    display: flex;
 }
 
 .title {
@@ -50,4 +52,81 @@
 .contact > iframe {
     margin-top: 5%;
     margin-bottom: 10%;
+}
+
+.gh {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    >* {
+        width: 48%;
+    }
+
+    :nth-child(2) {
+        margin-top: 1.8%;
+        margin-left: 10px;
+        height: 95vh;
+    }
+}
+
+.reveal-text1, .reveal-text1::after {
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.0,0.0,0.2,1)
+}
+
+.reveal-text1 {
+    visibility: initial !important;
+    animation-name: reveal-text !important;
+    white-space: nowrap;
+    cursor: default;
+    animation-duration: 1800ms !important;
+    position: relative;
+    font-size: 4vw;
+    display: block;
+    user-select: none;
+    
+    
+    &::after {
+        content:"";
+        position: absolute;
+        top: 0;
+        left:0;
+        right: 0;
+        bottom: 0;
+        background-color: pink;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        pointer-events: none;
+        animation-name: revealer-text !important;
+        animation-duration: 2000ms !important;
+    }
+}
+
+@keyframes reveal-text {
+    from {
+        clip-path: inset(0 100% 0 0 );
+    }
+    to {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+@keyframes revealer-text {
+    0%, 50% {
+        transform-origin: 0 50%
+    }
+
+    60%, 100% {
+        transform-origin: 100% 50%;
+    }
+
+    60% {
+        transform: scaleX(1);
+    }
+
+    100% {
+        transform: scaleX(0)
+    }
 }

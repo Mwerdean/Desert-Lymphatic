@@ -63,7 +63,7 @@
     > img {
         transition: all 2s ease-in-out;
         margin-top: 10px;
-        height: 120px;
+        height: 100px;
     }
 }
 
@@ -72,7 +72,8 @@
     width: 10%;
     
     > img {
-        height: 100px;
+        height: 75px;
+        margin-bottom: -5px;
     }
 }
 
@@ -101,7 +102,8 @@
 }
 
 .nav-title {
-    margin-left: -20px;
+    margin-left: -80px;
+    margin-right: 40px;
     margin-top: 10px;
     font-size: 2.7em;
     font-weight: bold;

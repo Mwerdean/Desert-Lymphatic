@@ -15,15 +15,24 @@
     --loader-bar-color: #851515 !important;
     --loader-bar-height: 6px !important;
     background-color: white !important;
-    }
+    filter: brightness(50%);
+    opacity: .8;
+}
 
     .Hero {
-        > h1 {
-            margin-left: 50px;
-            color: gray;
-            opacity: .8;
-            font-size: 3em;
-            letter-spacing: 3px;
+        > article {
+            display: flex;
+            justify-content: center;
         }
+    }
+
+    .Nav-Text {
+        position: absolute;
+        width: 60%;
+        color: white;
+        font-size: 3em;
+        top: 40%;
+        z-index: 10;
+        font-weight: bold;
     }
     
