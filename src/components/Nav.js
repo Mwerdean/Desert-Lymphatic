@@ -9,7 +9,7 @@ export default class Nav extends Component {
 
   componentDidMount() {
     window.addEventListener('scroll', (event) => {
-      if(window.scrollY > 0) {
+      if(window.scrollY > 200) {
         this.setState({minimal: false})
       } else {
         this.setState({minimal: true})

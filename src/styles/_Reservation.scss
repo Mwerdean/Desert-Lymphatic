@@ -1,6 +1,52 @@
 .pricing {
     margin-left: 10%;
-    font-size: 1em;
+    font-size: 1.5em;
     color: black; 
     letter-spacing: 1.5px;
+    width: 30%;
+    opacity: .7;
+}
+
+.h4 {
+    font-size: 1.4em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.reservation-container {
+    display: flex;
+}
+
+.embeded-acuity {
+    // background-color: 	#FFFAFA;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    > iframe {
+        width: 70%;
+    }
+}
+
+
+.contact {
+    > iframe {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    pointer-events: none;
+    }
+}
+
+.addPointer > iframe {
+    pointer-events: initial;
+}
+
+.title {
+    font-size: 2.7em;
+    color: gray;
+    letter-spacing: 3px;
+    margin-left: 10%;
+}
+
+.margin-top {
+    margin-top: 10%;
 }

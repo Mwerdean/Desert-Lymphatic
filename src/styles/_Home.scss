@@ -1,11 +1,12 @@
 
 .Home {
-    padding-top: 8%;
+    padding-top: 4%;
 }
 
 .home-body {
     width: 100%;
-
+    height: 120vh;
+    background: linear-gradient(20deg, #ccedf8 45%, transparent 30%);
    > h2 {
     width: fit-content;
     visibility: hidden;
@@ -13,9 +14,22 @@
     color: gray;
     font-size: 2em;
     letter-spacing: 3px;
-    margin-left: 10%;
+    margin-left: 22%;
     opacity: .6;
     }
+        
+}
+
+.home-gradient {
+    width: 100%;
+    height: 120vh;
+    background: linear-gradient(20deg, rgb(237,248,252) 55%, transparent 50%);
+}
+
+.home-gradient-green {
+    width: 100%;
+    height: 120vh;
+    background: linear-gradient(-20deg, rgba(192,246,206, 0.3) 40%, transparent 20%);
 }
 
 .center {
@@ -23,51 +37,25 @@
     justify-content: center;
     width: 100%;
     > div {
-        width: 80%;
+        width: 65%;
         font-weight: 100;
         font-size: 1.2em;
         line-height: 35px;
+        margin-left: 10%;
     }
+
 }
 
-.embeded-acuity {
-    margin-top: 5%;
-    background-color: 	#FFFAFA;
-    display: flex;
-}
 
-.title {
-    margin-top: 10%;
-    font-size: 2em;
-    color: gray;
-    letter-spacing: 3px;
-    margin-left: 10%;
-    opacity: .6;
-}
+
+
 
 .margin-top {
     margin-top: 15%;
 }
 
-.contact > iframe {
-    margin-top: 5%;
-    margin-bottom: 10%;
-}
 
-.gh {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    >* {
-        width: 48%;
-    }
 
-    :nth-child(2) {
-        margin-top: 1.8%;
-        margin-left: 10px;
-        height: 95vh;
-    }
-}
 
 .reveal-text1, .reveal-text1::after {
     animation-delay: 0s;
@@ -128,5 +116,20 @@
 
     100% {
         transform: scaleX(0)
+    }
+}
+
+.home-list {
+    margin-top: 17%;
+    font-size: 60px;
+    color: gray;
+    margin-left: 5%;
+    > li {
+        list-style-type: none;
+        margin-top: 25px;
+        font-size: 22px;
+        color: gray;
+        letter-spacing: 1px;
+        content: "\f00c"
     }
 }
