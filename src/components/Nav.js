@@ -3,8 +3,11 @@ import Social from './Social.js'
 import logo from '../assets/logo.jpg'
 
 export default class Nav extends Component {
-  state = {
-    minimal: true,
+  constructor(props) {
+    super(props)
+    this.state = {
+      minimal: true,
+    }
   }
 
   componentDidMount() {
@@ -22,8 +25,7 @@ export default class Nav extends Component {
       <div className='Nav'>
         <div className={`upper ${this.state.minimal ? ``:`upper2`}`}>
             <div>
-                <div>Featu
-                  res</div>
+                <div>Features</div>
                 <div>|</div>
                 <div>Layout</div>
                 <div>|</div>
@@ -32,12 +34,12 @@ export default class Nav extends Component {
             <Social />
         </div>
         <div className='lower'>
-            <div className={`logo ${this.state.minimal ? ``:`logo2`}`}><img src={logo} alt='logo' /></div>
-            <div className={`nav-title ${this.state.minimal ? ``:`nav-title2`}`}>Desert Lymphatic Massage</div>
+            <div className={`logo ${this.state.minimal ? ``:`logo2`}`}><img src={logo} alt='logo' /><div className={`nav-title ${this.state.minimal ? ``:`nav-title2`}`}>Desert Lymphatic Massage</div></div>
+            
             <div className={`nav-all ${this.state.minimal ? `nav-top`:``}`}>
-                <div>Home</div>
-                <div>Schedule</div>
-                <div>Location</div>
+                <div onClick={this.props.goTo}>Home</div>
+                <div onClick={() => this.props.goTo(1)}>Schedule</div>
+                <div onClick={() => this.props.goTo(2)}>Location</div>
                 <div>Contact</div>
             </div>
         </div>

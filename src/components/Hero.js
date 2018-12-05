@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import AwesomeSlider from 'react-awesome-slider'
+// eslint-disable-next-line
 import styles from 'react-awesome-slider/src/styles.js'
 import img1 from '../assets/alexander-mils-684487-unsplash.jpg'
 import massage from '../assets/massage.jpg'

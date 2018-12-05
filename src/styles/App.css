@@ -2,40 +2,28 @@
 .Home {
   padding-top: 4%; }
 
-.home-body {
-  width: 100%;
-  height: 120vh;
-  background: linear-gradient(20deg, #ccedf8 45%, transparent 30%); }
-  .home-body > h2 {
-    width: fit-content;
-    visibility: hidden;
-    margin-top: 10%;
-    color: gray;
-    font-size: 2em;
-    letter-spacing: 3px;
-    margin-left: 22%;
-    opacity: .6; }
+.header {
+  width: fit-content;
+  visibility: hidden;
+  margin-top: 10%;
+  font-size: 2.7em;
+  color: gray;
+  margin-left: 8%; }
 
-.home-gradient {
-  width: 100%;
-  height: 120vh;
-  background: linear-gradient(20deg, #edf8fc 55%, transparent 50%); }
-
-.home-gradient-green {
-  width: 100%;
-  height: 120vh;
-  background: linear-gradient(-20deg, rgba(192, 246, 206, 0.3) 40%, transparent 20%); }
+.header2 {
+  margin-top: 10%;
+  font-size: 2.7em;
+  color: gray;
+  margin-left: 8%; }
 
 .center {
-  display: flex;
-  justify-content: center;
-  width: 100%; }
+  margin-top: 1%;
+  margin-left: 8%; }
   .center > div {
     width: 65%;
     font-weight: 100;
     font-size: 1.2em;
-    line-height: 35px;
-    margin-left: 10%; }
+    line-height: 35px; }
 
 .margin-top {
   margin-top: 15%; }
@@ -53,7 +41,6 @@
   cursor: default;
   animation-duration: 1800ms !important;
   position: relative;
-  font-size: 4vw;
   display: block;
   user-select: none; }
   .reveal-text1::after {
@@ -87,10 +74,14 @@
     transform: scaleX(0); } }
 
 .home-list {
-  margin-top: 17%;
-  font-size: 60px;
+  padding: 0px;
+  margin-top: 10%;
+  font-size: 3em;
   color: gray;
-  margin-left: 5%; }
+  margin-left: 8%;
+  margin-right: 8%;
+  padding-bottom: 10%;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.7); }
   .home-list > li {
     list-style-type: none;
     margin-top: 25px;
@@ -147,7 +138,8 @@
   transition: all 2s ease-in-out;
   margin-left: 7%;
   margin-right: 4%;
-  width: 33%; }
+  width: 66%;
+  display: flex; }
   .logo > img {
     transition: all 2s ease-in-out;
     margin-top: 10px;
@@ -157,8 +149,7 @@
   transition: all 2s ease-in-out;
   width: 10%; }
   .logo2 > img {
-    height: 75px;
-    margin-bottom: -5px; }
+    height: 75px; }
 
 .nav-top {
   display: flex;
@@ -178,16 +169,16 @@
   font-size: 1.5em; }
   .nav-all > :first-child {
     color: #666565; }
+  .nav-all > div {
+    cursor: pointer; }
 
 .nav-title {
-  margin-left: -80px;
-  margin-right: 40px;
-  margin-top: 10px;
+  margin-left: 4%;
+  margin-top: 2.2%;
   font-size: 2.7em;
   font-weight: bold;
   color: #585858;
   letter-spacing: 3px;
-  width: 33%;
   font-family: "Amiri";
   white-space: nowrap;
   transition: width 2s ease-in-out 0s, opacity 1s ease-in-out 1.5s; }
@@ -272,15 +263,21 @@
 .pricing {
   margin-left: 10%;
   font-size: 1.5em;
-  color: black;
+  color: gray;
   letter-spacing: 1.5px;
   width: 30%;
-  opacity: .7; }
+  margin-top: 2%;
+  opacity: .7;
+  border-right: 1px solid rgba(211, 211, 211, 0.7); }
 
 .h4 {
-  font-size: 1.4em;
+  font-size: 1.2em;
   margin-top: 40px;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  color: gray;
+  padding-bottom: 3%;
+  margin-right: 15%;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.7); }
 
 .reservation-container {
   display: flex; }
@@ -290,7 +287,8 @@
   justify-content: center;
   width: 100%; }
   .embeded-acuity > iframe {
-    width: 70%; }
+    width: 70%;
+    overflow: scroll; }
 
 .contact > iframe {
   margin-top: 5%;
