@@ -19,19 +19,18 @@ export default class Home extends Component {
       if(scrollTop > this.ref1.current.scrollHeight + 100) {
         this.setState({ animate: true})
       }
-      if(scrollTop > this.props.scheduleRef.current.scrollTop) {
-        // console.log('Passed scheduleRef')
+      if(scrollTop > this.props.scheduleRef.current.offsetTop - 300) {
+        console.log('Passed scheduleRef')
       }
-      console.log(this.props.scheduleRef.current.scrollTop)
-      if(scrollTop > this.props.locationRef.current.scrollTop) {
-        // console.log('Passed locationRef')
+      if(scrollTop > this.props.locationRef.current.offsetTop - 300) {
+        console.log('Passed locationRef')
       }
     })
   }
 
   render() {
     return (
-         <div className='Home'>
+        <div className='Home'>
         <Hero />
           <div className='home-body'>
             <div ref={this.ref1} className={`header ${this.state.animate ? 'reveal-text1' : ''}`}>General Advantages of Massage</div>

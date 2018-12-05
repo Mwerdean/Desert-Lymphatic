@@ -15,7 +15,6 @@ class App extends Component {
   }
 
   scrollToContent = (content) => {
-    console.log(content)
     switch(content) {
       default: 
         window.scrollTo({top: 0, left: 0, behavior: 'smooth'})
