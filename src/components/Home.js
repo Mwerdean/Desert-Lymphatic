@@ -33,21 +33,27 @@ export default class Home extends Component {
         <div className='Home'>
         <Hero />
           <div className='home-body'>
-            <div ref={this.ref1} className={`header ${this.state.animate ? 'reveal-text1' : ''}`}>General Advantages of Massage</div>
+            <div ref={this.ref1} className={`header ${this.state.animate ? 'reveal-text1' : ''}`}>What is Manual Lymphatic Massage?</div>
             <div className='center'>
-              <div>
-                The massage we offer at Rebound is designed for the therapeutic environment. Our goal is to enhance your body's ability to heal and maintain healthy tissue. Our physical and massage therapists are dedicated to listening to our clients, targeting their problem area, and educating the client about their condition. Our massage therapist is educated in all of the therapeutic massage techniques, and may employ several types of massage in each session including deep tissue massage, reflexology and Reiki. Your experience is individually designed for your body to make a lasting difference in how you feel and perform. We offer 30-minute, 60-minute and 90-minute sessions.
-                Appointments are required. Call our Pinnacle Peak office for more information: (480) 502-4324.
-                Therapeutic massage has an impressive range of health benefits:
+              <div> 
+                Manual Lymphatic Massage works by stimulating oxygen distribution throughout your body and warding off toxins. The system’s network of vessels and nodes contains lymph, a mixture of water, proteins, immune system components, waste products, and other remnants of cell metabolism. Lymph nodes, which filter out the debris, are found throughout the body, with especially large groups of them in the neck, armpits, and groin. These major collections of lymph nodes ensure that the lymph passes through as many nodes as possible before it returns to the circulatory system.
               </div>
             </div>
+              <div className={`header ${this.state.animate ? 'reveal-text1' : ''}`}>What do we do?</div>
+              <div className='center'>
+                <div>
+                  During a lymph drainage massage, a specially-trained massage therapist uses a series of gliding, compressing, stretching, and cupping motions over the client’s body. The light rhythmic movements, applied without massage oil, stimulate the lymphatic system without compressing the vessels – allowing lymph to move easily through the tissues and lymph nodes. MLD follows a specific sequence over the body so lymph isn’t trapped anywhere, making sure every area is treated with care.
+                </div>
+              </div>
               <ul className='home-list'> Benefits
-                <li><FontAwesomeIcon icon="check" size="1x"/> Cleanses impurities from immune system</li>
+                <li><FontAwesomeIcon icon="check" size="1x"/> Help reduce pain, swelling, and bruising</li>
+                <li><FontAwesomeIcon icon="check" size="1x"/> Build stronger immune system</li>
                 <li><FontAwesomeIcon icon="check" size="1x"/> Revitalizes energy production</li>
                 <li><FontAwesomeIcon icon="check" size="1x"/> Stress Management</li>
                 <li><FontAwesomeIcon icon="check" size="1x"/> Improves lymph fuild circulation</li>
                 <li><FontAwesomeIcon icon="check" size="1x"/> Improves post-op recovery</li>
-                <li><FontAwesomeIcon icon="check" size="1x"/> Clear waste and swelling</li>
+                <li><FontAwesomeIcon icon="check" size="1x"/> Help remove toxins and waste</li>
+                <li><FontAwesomeIcon icon="check" size="1x"/> Increases movement and mobility</li>
               </ul>
           </div>
             <Reservation scheduleRef={this.props.scheduleRef} locationRef={this.props.locationRef}/>

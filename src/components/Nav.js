@@ -52,7 +52,7 @@ export default class Nav extends Component {
                     <span className="menu__item-name">Location</span>
                   </a>
                   <a className="menu__item" href="#">
-                    <span className="menu__item-name">Contact</span>
+                    <span className="menu__item-name">About&nbsp;Us</span>
                   </a>
                 </div>
                 

@@ -28,7 +28,7 @@ export default class Reservation extends Component {
                         <div>5 sessions for $550</div>
                 </div>
                 <div className='embeded-acuity'>
-                    <iframe src="https://app.acuityscheduling.com/schedule.php?owner=16780609"  height="1300" frameBorder="0" title='schedule'></iframe>
+                    <iframe src="https://app.acuityscheduling.com/schedule.php?owner=16944448"  height="1300" frameBorder="0" title='schedule'></iframe>
                 </div>
             </div>
             <div ref={this.props.locationRef} />
