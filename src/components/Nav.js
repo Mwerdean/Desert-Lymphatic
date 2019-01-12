@@ -25,11 +25,11 @@ export default class Nav extends Component {
       <div className='Nav'>
         <div className={`upper ${this.state.minimal ? ``:`upper2`}`}>
             <div>
-                <div>Features</div>
+                {/* <div>Features</div>
                 <div>|</div>
                 <div>Layout</div>
                 <div>|</div>
-                <div>Blog</div>
+                <div>Blog</div> */}
             </div>
             <Social />
         </div>
@@ -37,10 +37,6 @@ export default class Nav extends Component {
             <div className={`logo ${this.state.minimal ? ``:`logo2`}`}><img src={logo} alt='logo' /><div className={`nav-title ${this.state.minimal ? ``:`nav-title2`}`}>Desert Lymphatic Massage</div></div>
             
             <div className={`nav-all ${this.state.minimal ? `nav-top`:``}`}>
-                {/* <div onClick={this.props.goTo}>Home</div>
-                <div onClick={() => this.props.goTo(1)}>Schedule</div>
-                <div onClick={() => this.props.goTo(2)}>Location</div>
-                <div>Contact</div> */}
                 <div className="menu menu--adsila">
                   <a className="menu__item" onClick={this.props.goTo}>
                     <span className="menu__item-name">Home</span>

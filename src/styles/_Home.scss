@@ -2,20 +2,26 @@
 .Home {
     padding-top: 4%;
     height: 100%;
+
+}
+
+.home-body {
+    background-color: #fff;
 }
 
 .header {
-    width: fit-content;
     visibility: hidden;
-    margin-top: 8%;
-    font-size: 2.7em;
+    padding-top: 4%;
+    font-size: 2.3em;
     color: gray;
     margin-left: 8%;
+    background-color: #fff;
+    
 }
 
 .header2 {
     margin-top: 10%;
-    font-size: 2.7em;
+    font-size: 2.5em;
     color: gray;
     margin-left: 8%;
 }
@@ -25,7 +31,7 @@
     > div {
         width: 65%;
         font-weight: 100;
-        font-size: 1.2em;
+        font-size: 1.1em;
         line-height: 35px;
     }
 }
@@ -63,8 +69,8 @@
         transform: scaleX(0);
         transform-origin: 0 50%;
         pointer-events: none;
-        animation-name: revealer-text !important;
-        animation-duration: 2000ms !important;
+        // animation-name: revealer-text !important;
+        // animation-duration: 2000ms !important;
     }
 }
 
@@ -98,7 +104,7 @@
 .home-list {
     padding: 0px;
     margin-top: 10%;
-    font-size: 3em;
+    font-size: 2.3em;
     color: gray;
     margin-left: 8%;
     margin-right: 8%;
@@ -107,7 +113,7 @@
     > li {
         list-style-type: none;
         margin-top: 25px;
-        font-size: 22px;
+        font-size: 18px;
         color: gray;
         letter-spacing: 1px;
         content: "\f00c"

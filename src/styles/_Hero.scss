@@ -36,3 +36,17 @@
         font-weight: bold;
     }
     
+
+.parallax {
+    position: relative;
+    z-index: -1;
+    background-image: url(../assets/hero.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    max-height: 1000px;
+}

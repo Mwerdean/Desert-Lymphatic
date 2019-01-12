@@ -9,7 +9,7 @@
 
 .social {
     display: flex;
-    > div {
+    > a {
         margin: 8px;
     }
 }
@@ -25,6 +25,7 @@
             animation-delay: .5s;
         }
     }
+    color: gray;
 }
 
 @keyframes social-anim {
