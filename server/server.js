@@ -7,7 +7,7 @@ app.get('*', (req, res)=>{
   res.sendFile(path.join(__dirname, '../build/index.html'));
 })
 
-const port = process.env.PORT || 3000
+const port = 80
 
 app.listen(port, () => {
     console.log(`Listening on port: ${port}`)
