@@ -8,10 +8,10 @@ export default class Social extends Component {
             <a href='https://twitter.com/JuliePoletti' className='social-animate'>
                 <FontAwesomeIcon icon={['fab', 'twitter']} size="2x"/>
             </a>
-            <a href='https://www.facebook.com/julie.poletti' className='social-animate'>
+            <a href='https://www.facebook.com/sunangelspraytanning' className='social-animate'>
                 <FontAwesomeIcon icon={['fab', 'facebook']} size="2x"/>
             </a>
-            <a href='https://www.instagram.com/julzpoletti/' className='social-animate'>
+            <a href='https://www.instagram.com/sunangelspraytanning/' className='social-animate'>
                 <FontAwesomeIcon icon={['fab', 'instagram']} size="2x"/>
             </a>
         </div>
