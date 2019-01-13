@@ -20,12 +20,7 @@ export default class Reservation extends Component {
             <div className='reservation-container'>
                 <div className='pricing' >
                     <div className='h4'>Pricing</div>
-                    <div>$135 per 90 minute session</div>
-                    <div>$99 per 60 minute session</div>
-                    <div className='h4'>
-                        Package
-                    </div>
-                        <div>5 sessions for $550</div>
+                    <div>$90 per 90 minute session</div>
                 </div>
                 <div className='embeded-acuity'>
                     <iframe src="https://app.acuityscheduling.com/schedule.php?owner=16944448"  height="1300" frameBorder="0" title='schedule'></iframe>
