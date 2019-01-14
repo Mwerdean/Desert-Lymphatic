@@ -30,8 +30,13 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Nav goTo={this.scrollToContent} />
-        <Home scheduleRef={this.scheduleRef} locationRef={this.locationRef} />
+        <div className='App'>
+          <Nav goTo={this.scrollToContent} />
+          <Home scheduleRef={this.scheduleRef} locationRef={this.locationRef} />
+        </div>
+        <div className='Mobile'>
+          Mobile version coming soon! Please use you're laptop/desktop to view this page.
+        </div>
       </div>
     );
   }
